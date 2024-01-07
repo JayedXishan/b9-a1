@@ -7,10 +7,70 @@
     background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('assets/Banner\ Image.png');
     background-repeat: no-repeat;
     border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .banner-item{
-    width: 650px;
-    height: 200px;
-    color: #00ffff;
+    width: 700px;
+    height: 300px;
+    padding: 25px;
+    font-family: 'Merriweather',serif;
+    
+}
+.banner-greeting{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-des{
+    color: #FFF;
+    text-align: center;                                                 
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+/*main section start here*/
+
+.discount{
+    width: 900px;
+    height: 900px;
+    margin: 120px auto;
+}
+.discount-des{
+    width: 420px;
+    height: 330px;
+    margin: 0px auto;
+}
+.discount-percent{
+    color: #F00;
+    text-align: center;
+    font-family:'Inter';
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+.discount-holiday{
+    color: #F00;
+    text-align: center;
+    font-family:'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+.discoun-catagory{
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.discount-img{
+    margin: 25px auto;
+    padding-left: 50px;
 }
