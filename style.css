@@ -180,8 +180,7 @@
 .offer{
     width: 1320px;
     height: 530px;
-    margin: 100px auto;
-    background-color: aqua;
+    margin: 120px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,7 +192,6 @@
 }
 .offer-heading1{
     color: #F00;
-    text-align: center;
     font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
@@ -204,28 +202,111 @@
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.offer-des-container p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
 .offer-img-container{
     width: 463px;
     height: 463px;
     border: 15px solid #F00;
     border-radius: 100%;
-    background-image: url('./assets/Ellipse\ 1.png');
-    background-repeat: no-repeat;
+}
+.offer-img{
+    position: relative;
+    top: 48px;
+    left: 48px;
 }
 .offer-greeting-container{
     width: 300px;
     height: 170px;
+    position: relative;
+    bottom: 30px;
+}
+.offer-greeting-container h3{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+}
+.offer-greeting-container p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 /*holiday sales start here*/
 
 .holiday-sales{
     width: 1320px;
     height: 910px;
-    margin: 120px auto;
-    background-color: aqua;
+    margin: 200px auto;
 }
 
+.holiday-des{
+    width: 1070px;
+    height: 270px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.holiday-des p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.holiday-title{
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-heading{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.holiday-img-container{
+    width: 1320px;
+    height: 675px;
+}
+.img-three{
+    display: flex;
+    justify-content: space-between;
+}
+.holiday-img1{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+.holiday-img2{
+    width: 220.048px;
+    height: 220.119px;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+.holiday-img3{
+    width: 429px;
+    height: 433px;
+    border-radius: 16px 16px 0px 0px;
+}
 /*gifts protfolio starts here*/
 
 .gift-portfolio{
@@ -251,7 +332,6 @@
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
-
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -341,8 +421,8 @@
  }
  .subscribe-btn{
     margin-left: 0px;
-    height: 65px;
-    width: 165px;
+    height: 67px;
+    width: 168px;
     border: none;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -354,6 +434,10 @@
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+
+    position: relative;
+    right: 10px;
+    top: 1px;
  }
 
  /*-------footer section starts here-------*/
