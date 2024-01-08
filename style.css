@@ -133,6 +133,12 @@
     border: none;
     margin-top: 50px;
 }
+.join-btn:hover{
+    padding: 10px;
+    border:1px solid #FFF;
+    border-radius: 13px;
+    color: #F00;
+}
 
 /*place date and time section*/
 
@@ -174,6 +180,11 @@
     border-radius: 8px;
     background: #F00;
     color: #FFF;
+}
+.btn-join:hover{
+    border:1px solid #dd0b0b;
+    background:none;
+    color: red;
 }
 
 /*offer sectin start here*/
@@ -340,6 +351,7 @@
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 400;
+    line-height: 35px;
 }
 .gift-container{
     width: 1320px;
@@ -357,7 +369,9 @@
     height: 450px;
     border-radius: 16px;
 }
-
+.gift:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.5);
+}
 
 /*Subscribe section starts here*/
  .subscribe{
@@ -401,6 +415,7 @@
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 70px;
+    line-height: 35px;
  }
  .subscribe-input{
     width: 520px;
@@ -416,7 +431,6 @@
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 400;
-
     margin-right: 0px;
  }
  .subscribe-btn{
@@ -507,6 +521,13 @@
     font-weight: 500;
     border: none;
     background:none;
+ }
+ .unsubscribe-btn:hover{
+    border:1px solid #dd0b0b;
+    background:none;
+    color: red;
+    padding: 10px;
+    border-radius:13px;
  }
  hr{
     border-top: 1px solid  #070211;
